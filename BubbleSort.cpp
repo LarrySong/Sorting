@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void SelectionSort(intA[], int n){
+void BubbleSort(intA[], int n){
 	for(int k = 0; k < n; k++){
 		bool swapped = false
 		for(int i = 0; i < n - k; i++){
