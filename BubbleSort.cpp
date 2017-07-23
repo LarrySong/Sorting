@@ -9,7 +9,7 @@ void BubbleSort(int A[], int n){
 				int temp = A[i];
 				A[i] = A[i + 1];
 				A[i + 1] = temp;
-				swapped = true
+				swapped = true;
 			}		
 			if(swapped == false)
 				break;
